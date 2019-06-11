@@ -60,9 +60,7 @@ export default function PageTemplate({ data: { mdx, site }, pageContext }) {
             <a
               target="_blank"
               rel="nofollow noopener noreferrer"
-              href={`${site.siteMetadata.githubUrl}/edit/master/content${
-                mdx.fields.slug
-              }index.md`}
+              href={`${site.siteMetadata.githubUrl}/edit/master/content${mdx.fields.slug}index.md`}
             >
               Edit this post on GitHub
             </a>

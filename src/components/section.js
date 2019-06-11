@@ -12,7 +12,7 @@ const Section = ({ name, centered, children, big }) => {
 }
 
 Section.propTypes = {
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   centered: PropTypes.bool,
   big: PropTypes.bool,
   children: PropTypes.node.isRequired,

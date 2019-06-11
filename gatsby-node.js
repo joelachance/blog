@@ -90,7 +90,7 @@ exports.createPages = ({ graphql, actions, reporter, pathPrefix }) => {
 
       createPage({
         path: pagePath,
-        component: path.resolve(`src/templates/blog-post.js`),
+        component: path.resolve(`./src/templates/blog-post.js`),
         context: { id: node.id, previous, next },
       })
 
