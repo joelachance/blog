@@ -2,7 +2,7 @@
 title: "Using Paperclip with AngularJS + Base64"
 description: "When I started to work through AngularJS, I started to realize how many gems aren’t abstracted the same way they are in Rails. As I was working through Angulargram, I realized how some of the…"
 date: "2016-07-09T02:18:18.950Z"
-categories: 
+categories:
   - Angularjs
   - Rails
   - Ruby

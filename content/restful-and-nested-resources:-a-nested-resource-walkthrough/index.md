@@ -81,8 +81,8 @@ Note: :artist\_id is coming from our nested route. Since your URI now has two d
 
 P.S. Don’t [nest resources more than a single level](http://weblog.jamisbuck.org/2007/2/5/nesting-resources). It’s going to start to get complicated, messy, and confusing!
 
-[**Give me a example of non-RESTful design?**  
+[**Give me a example of non-RESTful design?**
 _Stack Overflow is a community of 4.7 million programmers, just like you, helping each other. Join them; it only takes a…_stackoverflow.com](http://stackoverflow.com/questions/3889099/give-me-a-example-of-non-restful-design "http://stackoverflow.com/questions/3889099/give-me-a-example-of-non-restful-design")[](http://stackoverflow.com/questions/3889099/give-me-a-example-of-non-restful-design)
 
-[**Why Some Web APIs Are Not RESTful and What Can Be Done About It**  
+[**Why Some Web APIs Are Not RESTful and What Can Be Done About It**
 _Many Web API designers claim their are RESTful, but their APIs have little in common with REST. What can be done to…_www.infoq.com](http://www.infoq.com/articles/web-api-rest "http://www.infoq.com/articles/web-api-rest")[](http://www.infoq.com/articles/web-api-rest)

@@ -2,7 +2,7 @@
 title: "Intro to React Hooks"
 description: "This is a quick intro into hooks. You can easily switch over, although the React team recommends doing this in phases, not all at once. They aren’t deprecating classes probably ever, so no rush…"
 date: "2019-02-12T17:02:01.728Z"
-categories: 
+categories:
   - JavaScript
   - React
   - Reactjs
@@ -38,7 +38,7 @@ import { callAPI } from './api';
 
 const App = () => {
 
-useEffect(callAPI, []); 
+useEffect(callAPI, []);
 
 // We give useEffect an empty array if we don't return a callback.
 

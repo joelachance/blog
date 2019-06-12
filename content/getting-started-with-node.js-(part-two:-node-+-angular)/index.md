@@ -16,7 +16,7 @@ If you haven’t checked out part one, [head there first](https://medium.com/@jo
 
 Fork and clone [our project](https://github.com/fiveinfinity/node-blog-part-1) from Part 1 to follow along. If you want the completed code for this blog (Part Deux), check it out [here](https://github.com/fiveinfinity/node-blog-part-2).
 
-Inside our ‘index.html’ file, add the following the inside the <head> tags:
+Inside our ‘index.html’ file, add the following the inside the `<head>` tags:
 
 ```
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -24,9 +24,9 @@ Inside our ‘index.html’ file, add the following the inside the <head> tags:
 <script src="js/controllers/HomeController.js"></script>
 ```
 
-This connects to a CDN (Content Delivery Network) to grab everything that makes Angular work inside of your app. The last two <script> tags are telling your app to include the files where your Angular application lives (we will make these files in the coming the next steps). We’re only going to make a module and a controller to illustrate setting up a very simple Angular + Node app, but as you might guess, this gets to be a very long list of <script> tags if you have an actual Angular app. We’ll address this issue in Part 3.
+This connects to a CDN (Content Delivery Network) to grab everything that makes Angular work inside of your app. The last two `<script>` tags are telling your app to include the files where your Angular application lives (we will make these files in the coming the next steps). We’re only going to make a module and a controller to illustrate setting up a very simple Angular + Node app, but as you might guess, this gets to be a very long list of `<script>` tags if you have an actual Angular app. We’ll address this issue in Part 3.
 
-create the following files, from your base directory (notice these file paths are the same as our ‘src’ in our <script> tags):
+create the following files, from your base directory (notice these file paths are the same as our ‘src’ in our `<script>` tags):
 
 ```
 js/app.js
@@ -49,7 +49,7 @@ function HomeController() {
 angular.module('app').controller('HomeController', HomeController);
 ```
 
-I’m not going to get into what this Angular code does as it’s outside of the scope of this blog, but know it’s just a simple Hello World app. Lastly, we need to tell our index.html that we’re using Angular so it knows how to render our code. Add the following inside of your <body> tags:
+I’m not going to get into what this Angular code does as it’s outside of the scope of this blog, but know it’s just a simple Hello World app. Lastly, we need to tell our index.html that we’re using Angular so it knows how to render our code. Add the following inside of your `<body>` tags:
 
 ```
 <body ng-app=”app” ng-controller=”HomeController as ctrl”>

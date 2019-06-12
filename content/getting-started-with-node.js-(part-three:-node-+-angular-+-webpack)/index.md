@@ -149,5 +149,5 @@ In short, this is a vital part of your toolkit if you’re an Angular user. Webp
 
 Bonus Level: Webpack has a dev server that I didn’t use here to keep this series flowing without backtracking, however, it’s pretty awesome, and it’s easily integrated replacing the server we wrote. Check it out:
 
-[**webpack dev server**  
+[**webpack dev server**
 _The webpack-dev-server is a little node.js Express server, which uses the webpack-dev-middleware to serve a webpack…_webpack.github.io](https://webpack.github.io/docs/webpack-dev-server.html "https://webpack.github.io/docs/webpack-dev-server.html")[](https://webpack.github.io/docs/webpack-dev-server.html)
