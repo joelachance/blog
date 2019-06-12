@@ -14,7 +14,7 @@ Settle in, we’ve been simplifying this list over the course of years in order 
 
 Unless you’ve been in a coma for the last 5 years, you’ve probably heard of this. This one is super important. If you’re smart enough to actually get past this first step and learn React, you’ll have the privilege of learning node, webpack, babel, jest, enzyme, npm, yarn, styled components, sass, css modules, electron, Typescript, Flow, ES6, ES7, express, ES19, storybook, redux, rollup, #$\*!&…
 
-#### 2\. Don’t Learn Vue or Angular or <any framework except React>
+#### 2\. Don’t Learn Vue or Angular or (any framework except React)
 
 Seriously. Why the hell would you not want to learn React? What’s the hell is wrong with you?! Can’t you just be a sheep? Facebook wrote the damn thing for crying out loud. Didn’t you read step one?! UUGGGGHHHHH
 
